@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>AreoStep | Ecommerce </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+ <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo"><img src="images/Logo.PNG" alt="AreoStep logo links to home page"></a>
+
+    <ul class="Navmenu">
+      <li><a onclick="window.location.href='index.html';">Home</a></li>
+      <li><a onclick="window.location.href='shop.html';">Shop</a></li>
+      <li><a onclick="window.location.href='index.html#About-AreoStep';">About</a></li>
+      <li><a href="#contact-us">Contact</a></li>
+    </ul>
+
+    <div class="nav-icon">
+      <a href="sign-in.html"><i class='bx  bx-user'  ></i></a>
+      <a id="cart-icon"><i class='bx  bx-cart'></i></a> 
+      <div class="bx bx-menu" id="menu-icon"></div>
+      
+    </div>
+
+
+  </header>
+
+  <div class="cart" id="cart">
+    <h2 class="cart-title">your cart</h2>
+    <div class="cart-content" id="cart-items">
+    </div>
+    <div class="total">
+      <div class="total-title">Total</div>
+      <div class="total-price">£0</div>
+    </div>
+    <button class="btn-buy">Buy now</button>
+    <i class='bx bx-x' id="cart-close"></i>  
+  </div>
+
+  <body class="sign-up">
+    <script  defer src="Main.js"></script>
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Sign up</h1>
+            <div class="input-control">
+                <label for="username">username</label>
+                <input id="username" name="username" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="username" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password2" name="password2" type="password">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Sign up</button>
+        </form>
+    </div>
+
+<footer>
+  <!--contact section-->
+  <section class="contact">
+    <div class="Contact-info">
+      <div class="first-info">
+        <img src="images/Logo.PNG" alt="#">
+
+        <p id="contact-us">Lorem ipsum dolor sit amet <br>eiusmod tempor incididunt ut labore<br>240754289<br>incididunt ut labore et dolore magna aliqua</p>
+
+        <div class="social-icon">
+          <a href="#"><i class='bx  bxl-facebook'  ></i></a>
+          <a href="#"><i class='bx bxl-twitter'></i></a>
+          <a href="#"><i class='bx  bxl-instagram'  ></i></a>
+          <a href="#"><i class='bx  bxl-tiktok'  ></i></a>
+          <a href="#"><i class='bx  bxl-linkedin'  ></i></a>
+        </div>
+      </div>
+
+      <div class="second-info">
+        <h4>support</h4>
+        <p>Contact us</p>
+        <p>About Page</p>
+        <p>Size Guide</p>
+        <p>Shipping & Returns</p>
+        <p>Privacy</p>
+      </div>
+
+      <div class="thrid-info">
+        <h4>Shop</h4>
+        <p>Men's shopping</p>
+        <p>Women's Shopping</p>
+        <p>kids's Shopping </p>
+        <p>Furniture</p>
+        <p>Discount</p>
+      </div>
+
+      <div class="forth-info">
+        <h4>Company</h4>
+        <p>About</p>
+        <p>Blog</p>
+        <p>Affiliate</p>
+        <p>Login</p>
+      </div>
+
+      <div class="five-info">
+        <h4>Subscribe</h4>
+        <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqu</p>
+        <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqu</p>
+        <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqu</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <div class="end-text">
+    <p>Copyright ©2025 All Rights Reserved Designed By Ayra Baig</p>
+  </div>
+</footer>
+  </body>
