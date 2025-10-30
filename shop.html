@@ -4,15 +4,15 @@
     <title>AreoStep | shop</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
  <link rel="stylesheet"
   href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
 </head>
 <body>
@@ -27,9 +27,9 @@
     </ul>
 
     <div class="nav-icon">
-      <a href="sign-in.html"><i class='bx  bx-user'  ></i></a>
-      <a id="cart-icon"><i class='bx  bx-cart'  ></i></a>
-      <div class="bx bx-menu" id="menu-icon"></div>
+      <a href="sign-in.html"><i class='bx  bx-user'  aria-label="sign-in"></i></a>
+      <a id="cart-icon"><i class='bx  bx-cart'  aria-label="Open cart"></i></a>
+      <div class="bx bx-menu" id="menu-icon" aria-label="Open menu"></div>
     </div>
 
     
@@ -62,7 +62,7 @@
   <section class="featured-product" id="featured">
     <div class="products">
 
-        <div class="product-item" onclick="window.location.href='sproduct.html?id=nike-shox-z';"> 
+        <div class="product-item" role="button" onclick="window.location.href='sproduct.html?id=nike-shox-z';"> 
             <div class="row">
                 <img src="images/Nike shoes/W+NIKE+SHOX+Z-1.png" alt="maroon nike shox z women's shoe"> 
                 <h6 class="category-tag">Women's shoes</h6>
@@ -84,7 +84,7 @@
               <p>£74.99</p>
             </div>
         </div> 
-        <div class="product-item" onclick="window.location.href='sproduct.html?id=xlg-mtw-shoes';"> 
+        <div class="product-item" role="button" onclick="window.location.href='sproduct.html?id=xlg-mtw-shoes';"> 
             <div class="row">
                 <img src="images/Addidas shoes/XLG_MTW_Shoes_Grey_JS1501_01_00_standard.jpg" alt="grey Addidas xlg mtw unisex shoes"> 
                 <h6 class="category-tag">unisex shoes</h6>
@@ -106,7 +106,7 @@
               <p>£130.00</p>
             </div>
         </div> 
-        <div class="product-item"  onclick="window.location.href='sproduct.html?id=anthony-edwards-1';"> 
+        <div class="product-item" role="button" onclick="window.location.href='sproduct.html?id=anthony-edwards-1';"> 
             <div class="row">
                 <img src="images/Addidas shoes/Anthony_Edwards_1_Low_Trainers_White_JQ6140_01_00_standard.jpg" alt="black and white Addidas anthony-edwards-1 Basketball shoe"> 
                 <h6 class="category-tag">Basketball shoes</h6>
@@ -128,7 +128,7 @@
               <p>£74.99</p>
             </div>
         </div> 
-        <div class="product-item"  onclick="window.location.href='sproduct.html?id=nike-jordan-1';"> 
+        <div class="product-item" role="button" onclick="window.location.href='sproduct.html?id=nike-jordan-1';"> 
             <div class="row">
                 <img src="images/Nike shoes/nike retro high Jordan .png" alt="blue nike air jordan kid's shoe"> 
                 <h6 class="category-tag">kids's shoes</h6>
@@ -150,7 +150,7 @@
               <p>£69.99</p>
             </div>
         </div>
-        <div class="product-item"  onclick="window.location.href='sproduct.html?id=deviate-nitro';"> 
+        <div class="product-item" role="button" onclick="window.location.href='sproduct.html?id=deviate-nitro';"> 
             <div class="row">
                 <img src="images/Puma shoes/Deviate-NITRO™-Elite-3-Running-Shoes-Women.jpg" alt="orange puma deviate-nitro running shoe"> 
                 <h6 class="category-tag">Running shoes</h6>
@@ -172,7 +172,7 @@
               <p>£195.99</p>
             </div>
         </div>
-        <div class="product-item"  onclick="window.location.href='sproduct.html?id=campus-00s';"> 
+        <div class="product-item" role="button" onclick="window.location.href='sproduct.html?id=campus-00s';"> 
             <div class="row">
                 <img src="images/Addidas shoes/Campus_00s_Shoes_Green_H03472_01_standard.jpg" alt="dark green Addidas campus-00s unisex shoe"> 
                 <h6 class="category-tag">unisex shoes</h6>
@@ -194,7 +194,7 @@
               <p>£90.00</p>
             </div>
         </div> 
-        <div class="product-item"  onclick="window.location.href='sproduct.html?id=vomero-premium';"> 
+        <div class="product-item" role="button" onclick="window.location.href='sproduct.html?id=vomero-premium';"> 
             <div class="row">
                 <img src="images/Nike shoes/NIKE+VOMERO+PREMIUM.png" alt="light green nike vomero-premium unisex shoe"> 
                 <h6 class="category-tag">unisex shoes</h6>
@@ -216,7 +216,7 @@
               <p>£210.00</p>
             </div>
         </div> 
-        <div class="product-item"  onclick="window.location.href='sproduct.html?id=palermo-sneakers';"> 
+        <div class="product-item" role="button" onclick="window.location.href='sproduct.html?id=palermo-sneakers';"> 
             <div class="row">
                 <img src="images/Puma shoes/Palermo-Sneakers-Unisex.jpg" alt="light yellow and blue puma unisex palermo-sneakers"> 
                 <h6 class="category-tag">unisex shoes</h6>
@@ -238,7 +238,7 @@
               <p>£74.99</p>
             </div>
         </div> 
-        <div class="product-item"  onclick="window.location.href='sproduct.html?id=fuelcell-rebel-v5';"> 
+        <div class="product-item" role="button" onclick="window.location.href='sproduct.html?id=fuelcell-rebel-v5';"> 
             <div class="row">
                 <img src="images/New Balence/mfcxlv5_nb_02_i.jpg" alt="cream and coral new Balence fuelcell-rebel-v5 men's shoe"> 
                 <h6 class="category-tag">Men's shoes</h6>
@@ -260,7 +260,7 @@
               <p>£140.00</p>
             </div>
         </div>
-        <div class="product-item"  onclick="window.location.href='sproduct.html?id=predator-megaride';"> 
+        <div class="product-item" role="button" onclick="window.location.href='sproduct.html?id=predator-megaride';"> 
             <div class="row">
                 <img src="images/Addidas shoes/Predator_Megaride_Shoes_Grey_JS1555_01_00_standard.jpg" alt="sliver Addidas predator-megaride unisex shoes"> 
                 <h6 class="category-tag">unisex shoes</h6>
@@ -282,7 +282,7 @@
               <p>£150.00</p>
             </div>
         </div> 
-        <div class="product-item"  onclick="window.location.href='sproduct.html?id=monstro-og';"> 
+        <div class="product-item" role="button" onclick="window.location.href='sproduct.html?id=monstro-og';"> 
             <div class="row">
                 <img src="images/Puma shoes/jd_764659_a.jpg" alt="yellow and black puma monstro-og Men's show"> 
                 <h6 class="category-tag">Men's shoes</h6>
@@ -304,7 +304,7 @@
               <p>£115.00</p>
             </div>
         </div> 
-        <div class="product-item"  onclick="window.location.href='sproduct.html?id=abzorb-2000';"> 
+        <div class="product-item" role="button" onclick="window.location.href='sproduct.html?id=abzorb-2000';"> 
             <div class="row">
                 <img src="images/New Balence/u2000pbc_nb_02_i.jpg" alt="light pink new Balence abzorb-2000 women's shoe"> 
                 <h6 class="category-tag">women's shoes</h6>
@@ -326,7 +326,7 @@
               <p>£170.00</p>
             </div>
         </div>
-        <div class="product-item"  onclick="window.location.href='sproduct.html?id=nike-shox-r4';"> 
+        <div class="product-item" role="button" onclick="window.location.href='sproduct.html?id=nike-shox-r4';"> 
             <div class="row">
                 <img src="images/Nike shoes/NIKE+SHOX+R4+(GS).jpg" alt="black and orange nike-shox-r4 older kid's shoe"> 
                 <h6 class="category-tag">older kid's shoes</h6>
@@ -348,7 +348,7 @@
               <p>£89.99</p>
             </div>
         </div>
-        <div class="product-item"  onclick="window.location.href='sproduct.html?id=asap-rocky-inhale';"> 
+        <div class="product-item" role="button" onclick="window.location.href='sproduct.html?id=asap-rocky-inhale';"> 
             <div class="row">
                 <img src="images/Puma shoes/jd_768455_a.jpg" alt="grey, orange and black puma asap-rocky-inhale unisex shoe "> 
                 <h6 class="category-tag">unisex shoes</h6>
@@ -370,7 +370,7 @@
               <p>£130.00</p>
             </div>
         </div> 
-        <div class="product-item"  onclick="window.location.href='sproduct.html?id=hoka-bondai-i';"> 
+        <div class="product-item" role="button" onclick="window.location.href='sproduct.html?id=hoka-bondai-i';"> 
             <div class="row">
                 <img src="images/New Balence/jd_765107_a.jpg" alt="cream and mint green hoka-bondai-i women's shoe"> 
                 <h6 class="category-tag">Women's shoes</h6>
@@ -392,7 +392,7 @@
               <p>£160.00</p>
             </div>
         </div> 
-        <div class="product-item"  onclick="window.location.href='sproduct.html?id=nike-hyperboot';"> 
+        <div class="product-item" role="button" onclick="window.location.href='sproduct.html?id=nike-hyperboot';"> 
             <div class="row">
                 <img src="images/Nike shoes/HYPERBOOT+BY+NIKE+X+HYPERICE.jpg" alt="black and white nike-hyperboot unisex shoe"> 
                 <h6 class="category-tag">unisex shoes</h6>
@@ -414,7 +414,7 @@
               <p>£699.99</p>
             </div>
         </div> 
-        <div class="product-item"  onclick="window.location.href='sproduct.html?id=530';"> 
+        <div class="product-item" role="button" onclick="window.location.href='sproduct.html?id=530';"> 
             <div class="row">
                 <img src="images/New Balence/mr530snc_nb_02_i.jpg" alt="brown and cream new Balence 530 men's shoe"> 
                 <h6 class="category-tag">Men's shoes</h6>
@@ -436,7 +436,7 @@
               <p>£110.00</p>
             </div>
         </div>
-        <div class="product-item"  onclick="window.location.href='sproduct.html?id=nora';"> 
+        <div class="product-item" role="button" onclick="window.location.href='sproduct.html?id=nora';"> 
             <div class="row">
                 <img src="images/Addidas shoes/Nora_Purple_JP8586_01_00_standard.jpg" alt="purple and blue Addidas nora skateboarding shoes"> 
                 <h6 class="category-tag">skateboarding shoes</h6>
@@ -458,7 +458,7 @@
               <p>£80.00</p>
             </div>
         </div> 
-        <div class="product-item"  onclick="window.location.href='sproduct.html?id=caven-ii-infant';"> 
+        <div class="product-item" role="button" onclick="window.location.href='sproduct.html?id=caven-ii-infant';"> 
             <div class="row">
                 <img src="images/Puma shoes/jd_766897_a.jpg" alt="white puma caven-ii-infant kid's shoe"> 
                 <h6 class="category-tag">Kid's shoes</h6>
@@ -480,7 +480,7 @@
               <p>£35.00</p>
             </div>
         </div> 
-        <div class="product-item"  onclick="window.location.href='sproduct.html?id=taekwondo-f50';"> 
+        <div class="product-item" role="button" onclick="window.location.href='sproduct.html?id=taekwondo-f50';"> 
             <div class="row">
                 <img src="images/Addidas shoes/Taekwondo_F50_Shoes_Blue_JS1046_01_00_standard.jpg" alt="dark blue Addidas taekwondo-f50 men's shoe"> 
                 <h6 class="category-tag">men's shoes</h6>
@@ -502,7 +502,7 @@
               <p>£100.00</p>
             </div>
         </div>
-        <div class="product-item"  onclick="window.location.href='sproduct.html?id=fresh-foam-kaiha';"> 
+        <div class="product-item" role="button" onclick="window.location.href='sproduct.html?id=fresh-foam-kaiha';"> 
             <div class="row">
                 <img src="images/New Balence/wkaircv1_nb_02_i.jpg" alt="light purple new Balence fresh-foam-kaiha running shoe"> 
                 <h6 class="category-tag">Running shoes</h6>
@@ -524,7 +524,7 @@
               <p>£110.00</p>
             </div>
         </div>
-        <div class="product-item"  onclick="window.location.href='sproduct.html?id=superstar-ii';"> 
+        <div class="product-item" role="button" onclick="window.location.href='sproduct.html?id=superstar-ii';"> 
             <div class="row">
                 <img src="images/Addidas shoes/Superstar_II_Shoes_Black_JP8164_01_00_standard.jpg" alt="black and cream cow print Addidas superstar-ii men's shoe"> 
                 <h6 class="category-tag">Men's shoes</h6>
@@ -546,7 +546,7 @@
               <p>£100.00</p>
             </div>
         </div> 
-        <div class="product-item"  onclick="window.location.href='sproduct.html?id=speecat-pony';"> 
+        <div class="product-item" role="button" onclick="window.location.href='sproduct.html?id=speecat-pony';"> 
             <div class="row">
                 <img src="images/Addidas shoes/jd_773592_a.jpg" alt="brown and cream horse pattern Addidas speecat-pony women's shoe"> 
                 <h6 class="category-tag">Women's shoes</h6>
@@ -568,7 +568,7 @@
               <p>£100.00</p>
             </div>
         </div> 
-        <div class="product-item"  onclick="window.location.href='sproduct.html?id=nike-air-max-dn';"> 
+        <div class="product-item" role="button" onclick="window.location.href='sproduct.html?id=nike-air-max-dn';"> 
             <div class="row">
                 <img src="images/Nike shoes/AIR+MAX+DN+(GS).jpg" alt="white and light green nike-air-max-dn shoes older kid's shoe"> 
                 <h6 class="category-tag">older kid's shoes</h6>
