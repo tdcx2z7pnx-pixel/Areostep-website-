@@ -575,16 +575,18 @@ function removeCartItem(productId) {
 
 
 const addToCartBtn = document.getElementById('add-cart-btn');
-const sizeSelect = document.getElementById('product-size');
 
-const productTitleEl = document.getElementById('product-title');
+if (addToCartBtn) {
+    const sizeSelect = document.getElementById('product-size');
 
-if (productTitleEl) {
+    const productTitleEl = document.getElementById('product-title');
+
+    if (productTitleEl) {
     const productTitle = document.getElementById('product-title').textContent;
-const productPrice = parseFloat(document.getElementById('product-price').textContent.replace('£', ''));
-const productImg = document.getElementById('product-img').src;
+    const productPrice = parseFloat(document.getElementById('product-price').textContent.replace('£', ''));
+    const productImg = document.getElementById('product-img').src;
 
-addToCartBtn.addEventListener('click', () => {
+    addToCartBtn.addEventListener('click', () => {
     const selectedSize = sizeSelect.value;
 
     if (!selectedSize) {
@@ -612,6 +614,8 @@ addToCartBtn.addEventListener('click', () => {
     renderCart();
     alert("Added to cart!");
 });
+}
+
 
 document.addEventListener("DOMContentLoaded", () => {
     const cartIcon = document.getElementById("cart-icon");
@@ -634,16 +638,20 @@ document.addEventListener("DOMContentLoaded", () => {
 //Form validation//
 
 const form = document.getElementById('form');
-const  username = document.getElementById('username');
-const email = document.getElementById('email');
-const password = document.getElementById('password');
-const password2 = document.getElementById('password2');
 
-form.addEventListener('submit', e => {
+if (form) {
+    const  username = document.getElementById('username');
+    const email = document.getElementById('email');
+    const password = document.getElementById('password');
+    const password2 = document.getElementById('password2');
+
+    form.addEventListener('submit', e => {
     e.preventDefault();
 
     vaLidateInputs();
-});
+    });
+}
+
 
 const setError = (Element, message) => {
     const inputControl = Element.parentElement;
